@@ -1,0 +1,142 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+  password      String?
+  role          String    @default("ADMIN")
+  accounts      Account[]
+  sessions      Session[]
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Category {
+  id          String    @id @default(cuid())
+  nameRw      String
+  nameEn      String
+  slug        String    @unique
+  description String?
+  image       String?
+  displayOrder Int       @default(0)
+  active      Boolean   @default(true)
+
+  parentId    String?
+  parent      Category?  @relation("CategoryToCategory", fields: [parentId], references: [id])
+  children    Category[] @relation("CategoryToCategory")
+
+  products    Product[]
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+}
+
+model Product {
+  id             String   @id @default(cuid())
+  nameRw         String
+  nameEn         String
+  slug           String   @unique
+  categoryId     String
+  category       Category @relation(fields: [categoryId], references: [id])
+  descriptionRw  String?
+  descriptionEn  String?
+  brand          String?
+  package        String?
+  subCategoryRw  String? // Kept for backward compatibility during migration
+  subCategoryEn  String? // Kept for backward compatibility during migration
+  productType    String?
+  variant        String?
+  animalType     String?  // For veterinary products
+  cropType       String?  // For seeds
+  activeIngredients String?
+  usagePurpose   String?
+  price          Float?
+  availability   String   @default("AVAILABLE") // AVAILABLE, UNAVAILABLE, CONTACT
+  image          String?
+  featured       Boolean  @default(false)
+  promoted       Boolean  @default(false)
+  published      Boolean  @default(true)
+  displayOrder   Int      @default(0)
+  isNew          Boolean  @default(false)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model Article {
+  id          String   @id @default(cuid())
+  titleRw     String
+  titleEn     String
+  slug        String   @unique
+  summaryRw   String?
+  summaryEn   String?
+  contentRw   String
+  contentEn   String
+  image       String?
+  author      String   @default("Gwiza Umusaruro")
+  published   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Promotion {
+  id          String   @id @default(cuid())
+  titleRw     String
+  titleEn     String
+  description String?
+  image       String?
+  startDate   DateTime?
+  endDate     DateTime?
+  active      Boolean  @default(true)
+  createdAt   DateTime @default(now())
+}
+
+model BusinessInfo {
+  id           String @id @default("singleton")
+  phone        String?
+  whatsapp     String?
+  email        String?
+  address      String?
+  mapsUrl      String?
+  openingHours String?
+  descriptionRw String?
+  descriptionEn String?
+}

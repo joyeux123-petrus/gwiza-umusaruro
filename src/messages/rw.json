@@ -1,0 +1,85 @@
+{
+  "Home": {
+    "heroTitle": "Dufasha Abahinzi n'Aborozi Kugwiza Umusaruro.",
+    "heroSubtitle": "Ibicuruzwa byiza by'ubuhinzi n'ubworozi mu Rwanda.",
+    "ctaProducts": "Reba Ibicuruzwa",
+    "ctaContact": "Twandikire",
+    "categoriesTitle": "Ibyiciro by'Ibicuruzwa",
+    "featuredTitle": "Ibicuruzwa By'Indashyikirwa",
+    "whyChooseUsTitle": "Kuki wahitamo Gwiza Umusaruro?",
+    "quality": "Ubwiza bwizewe",
+    "expertise": "Inama z'inzobere",
+    "community": "Gushyigikira abahinzi"
+  },
+  "Navigation": {
+    "home": "Ahabanza",
+    "products": "Ibicuruzwa",
+    "veterinary": "Imiti",
+    "seeds": "Imbuto",
+    "cropProtection": "Kurinda Imyaka",
+    "fertilizers": "Inyongeramusaruro",
+    "tools": "Ibikoresho",
+    "tips": "Inama",
+    "about": "Abo turi bo",
+    "contact": "Twandikire"
+  },
+  "Categories": {
+    "livestock": "Imiti",
+    "seeds": "Imbuto",
+    "cropProtection": "Kurinda Imyaka",
+    "fertilizers": "Inyongeramusaruro"
+  },
+  "Subcategories": {
+    "veterinaryMedicines": "Imiti n'inyongeramusaruro by'amatungo",
+    "carrotSeeds": "Imbuto z'amashu (Carrots)",
+    "celerySeeds": "Imbuto za Celery",
+    "onionSeeds": "Imbuto z'ibitunguru",
+    "vegetableSeeds": "Imbuto z'imboga",
+    "insecticides": "Imiti yica udukoko",
+    "fungicides": "Imiti yica uduhuvyi",
+    "adjuvants": "Ibindi bikoreshwa mu buhinzi"
+  },
+  "Products": {
+    "title": "Ibicuruzwa Byacu",
+    "searchPlaceholder": "Shakisha igicuruzwa...",
+    "filterByCategory": "Icyiciro",
+    "noResults": "Nta gicuruzwa cyabonetse.",
+    "all": "Byose"
+  },
+  "Tips": {
+    "title": "Inama z'Ubuhinzi n'Ubworozi",
+    "subtitle": "Jya uhora umenya amakuru n'inama nshya bigufasha mu rugendo rwawe rwo kongera umusaruro.",
+    "readMore": "Soma ibindi",
+    "latest": "Inama ziheruka"
+  },
+  "Contact": {
+    "title": "Twandikire",
+    "subtitle": "Turi hano kugira ngo tuguhe serivisi nziza kandi tugufashe kongera umusaruro.",
+    "findUs": "Aho dukorera",
+    "openingHours": "Amasaha yo gukora",
+    "sendMessage": "Tuvugishe kuri WhatsApp",
+    "callNow": "Duhamagare ubu"
+  },
+  "About": {
+    "title": "Abo turi bo",
+    "content": "Gwiza Umusaruro Agroveto ni ikompanyi ikora mu bijyanye n'ubuhinzi n'ubworozi mu Rwanda. Twiyemeje gufasha abahinzi n'aborozi kubona ibikoresho n'imiti byiza, imbuto z'indashyikirwa, ndetse n'inama z'inzobere zibafasha mu rugendo rwabo rwo kongera umusaruro."
+  },
+  "ProductDetails": {
+    "brand": "Ikirango",
+    "package": "Ingano",
+    "availability": "Niba bihari",
+    "contactTitle": "Ushaka iki gicuruzwa?",
+    "contactSubtitle": "Twandikire cyangwa uduhamagare ubu.",
+    "warning": "Banza ugishe inama inzobere mu bworozi (Veterinary) mbere yo gukoresha imiti y'amatungo."
+  },
+  "Common": {
+    "available": "Birahari",
+    "unavailable": "Ntabwo bihari ubu",
+    "contactForAvailability": "Twaze kutubaza niba bihari",
+    "viewDetails": "Reba ibindi",
+    "callUs": "Duhamagare",
+    "whatsappUs": "Twandikire kuri WhatsApp",
+    "getDirections": "Turebe aho turi",
+    "footerText": "Dufatanyije kugwiza umusaruro w'ubuhinzi n'ubworozi."
+  }
+}

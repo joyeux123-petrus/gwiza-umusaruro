@@ -1,0 +1,85 @@
+{
+  "Home": {
+    "heroTitle": "Helping Farmers and Livestock Keepers Grow Their Productivity.",
+    "heroSubtitle": "The best agricultural and veterinary products in Rwanda.",
+    "ctaProducts": "View Products",
+    "ctaContact": "Contact Us",
+    "categoriesTitle": "Product Categories",
+    "featuredTitle": "Featured Products",
+    "whyChooseUsTitle": "Why Choose Gwiza Umusaruro?",
+    "quality": "Trusted Quality",
+    "expertise": "Expert Advice",
+    "community": "Supporting Farmers"
+  },
+  "Navigation": {
+    "home": "Home",
+    "products": "Products",
+    "veterinary": "Medicine",
+    "seeds": "Seeds",
+    "cropProtection": "Crop Protection",
+    "fertilizers": "Fertilizers & Soil Inputs",
+    "tools": "Tools",
+    "tips": "Farming Tips",
+    "about": "About Us",
+    "contact": "Contact Us"
+  },
+  "Categories": {
+    "livestock": "Medicine",
+    "seeds": "Seeds",
+    "cropProtection": "Crop Protection",
+    "fertilizers": "Fertilizers & Soil Inputs"
+  },
+  "Subcategories": {
+    "veterinaryMedicines": "Veterinary Medicines & Supplements",
+    "carrotSeeds": "Carrot Seeds",
+    "celerySeeds": "Celery Seeds",
+    "onionSeeds": "Onion Seeds",
+    "vegetableSeeds": "Vegetable Seeds",
+    "insecticides": "Insecticides & Pest Control",
+    "fungicides": "Fungicides",
+    "adjuvants": "Adjuvants & Agricultural Support"
+  },
+  "Products": {
+    "title": "Our Products",
+    "searchPlaceholder": "Search for a product...",
+    "filterByCategory": "Category",
+    "noResults": "No products found.",
+    "all": "All"
+  },
+  "Tips": {
+    "title": "Farming & Livestock Tips",
+    "subtitle": "Stay informed with the latest advice and information to help you grow your productivity.",
+    "readMore": "Read more",
+    "latest": "Latest Tips"
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to provide you with excellent service and help you grow your productivity.",
+    "findUs": "Our Location",
+    "openingHours": "Opening Hours",
+    "sendMessage": "Message us on WhatsApp",
+    "callNow": "Call us now"
+  },
+  "About": {
+    "title": "About Us",
+    "content": "Gwiza Umusaruro Agroveto is a company dedicated to agricultural and livestock development in Rwanda. We are committed to helping farmers and livestock keepers access quality equipment, medicines, superior seeds, and expert advice to help them grow their productivity."
+  },
+  "ProductDetails": {
+    "brand": "Brand",
+    "package": "Package",
+    "availability": "Availability",
+    "contactTitle": "Interested in this product?",
+    "contactSubtitle": "Contact us or call us now to ask about availability.",
+    "warning": "Please consult a qualified veterinary professional before using veterinary medicines."
+  },
+  "Common": {
+    "available": "Available",
+    "unavailable": "Currently Unavailable",
+    "contactForAvailability": "Contact us for availability",
+    "viewDetails": "View Details",
+    "callUs": "Call Us",
+    "whatsappUs": "WhatsApp Us",
+    "getDirections": "Get Directions",
+    "footerText": "Together growing agricultural and livestock productivity."
+  }
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="">
+
+     <meta name="robots" content="follow,noindex,archive"/>
+     <meta name="location" content="us"/>
+     <meta name="description" content="404 Page Not Found"/>
+     <meta name="language" content="en"/>
+     <title>404 Page Not Found | Syngenta US</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/_assets/404/favicon.ico">
+
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="/_assets/404/bootstrap.min.css">
+    <link rel="stylesheet" href="/_assets/404/style.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="/_assets/404/animate.css">
+    <link rel="stylesheet" href="/_assets/404/line-icons.css">
+    <link rel="stylesheet" href="/_assets/404/font-awesome.min.css">
+
+    <!-- CSS Page Style -->
+    <link rel="stylesheet" href="/_assets/404/page_404_error2.css">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="/_assets/404/custom.css">
+    <link rel="stylesheet" href="/_assets/404/blocks.css">
+    <link rel="stylesheet" href="/_assets/404/app.css">
+
+      <!--Google Tag Manager
+================================================== -->
+    <script>        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({ 'gtm.start':
+    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+    '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K7J5XQ');
+    </script>
+
+</head>
+
+<body>
+ <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-K7J5XQ" height="0" width="0"
+            style="display: none; visibility: hidden"></iframe>
+    </noscript>
+
+    <!-- End Google Tag Manager -->
+
+    <!--=== Error V3 ===-->
+    <div class="container content">
+        <!-- Error Block -->
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="error-v3">
+                    <h2>404</h2>
+                    <p>Sorry, the Syngenta US page you were looking for could not be found. Try checking the URL for errors or use the links below to find what you are looking for.</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Error Block -->
+
+        <!-- Begin Service Block V2 -->
+        <div class="row service-block-v2">
+            <div class="col-md-4">
+                <div class="service-block-in service-or">
+                    <div class="service-bg"></div>
+                    <a href="https://www.syngenta-us.com/search/default.aspx"><i class="icon-magnifier"></i></a>
+                    <h4>Site Search</h4>
+                    <a class="btn-u btn-block" href="https://www.syngenta-us.com/search/default.aspx"> Search Syngenta US</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="service-block-in service-or">
+                    <div class="service-bg"></div>
+                    <a href="https://www.syngenta-us.com/home.aspx"><i class="icon-directions"></i></a>
+                    <h4>Visit the Syngenta US Homepage</h4>
+                    <a class="btn-u btn-block" href="https://www.syngenta-us.com/home.aspx"> Go back to Home Page</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="service-block-in service-or">
+                    <div class="service-bg"></div>
+                    <a href="https://www.syngenta-us.com/support.aspx"><i class="icon-users"></i></a>
+                    <h4>Contact Syngenta Support</h4>
+                    <a class="btn-u btn-block" href="https://www.syngenta-us.com/support.aspx"> Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <!-- End Service Block V2 -->
+    </div>
+    <!--=== End Error-V3 ===-->
+
+    <!--=== Sticky Footer ===-->
+    <div class="container sticky-footer">
+        <p class="copyright-space">
+            &copy;<script>
+                  var mydate = new Date()
+                  var year = mydate.getYear()
+                  if (year < 1000)
+                    year += 1900
+                  document.write(year)
+				</script> Syngenta
+        </p>
+    </div>
+    <!--=== End Sticky-Footer ===-->
+
+<!-- JS Global Compulsory -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/_assets/404/jquery-migrate.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="/_assets/404/back-to-top.js"></script>
+<script type="text/javascript" src="/_assets/404/jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+    $.backstretch([
+      "/_assets/404/404-bground-image.jpg"
+      ])
+</script>
+<!-- JS Customization -->
+<script type="text/javascript" src="/_assets/404/custom.js"></script>
+<!-- JS Page Level -->
+<script type="text/javascript" src="/_assets/404/app.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        App.init();
+        });
+</script>
+<!--[if lt IE 9]>
+    <script src="imageAssets/plugins/respond.js"></script>
+    <script src="imageAssets/plugins/html5shiv.js"></script>
+    <script src="imageAssets/plugins/placeholder-IE-fixes.js"></script>
+<![endif]-->
+
+</body>
+</html>

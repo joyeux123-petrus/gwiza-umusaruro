@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>您访问的页面不存在 - Bullvet</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="applicable-device" content="pc">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <script src="https://s2.pstatp.com/cdn/expire-1-M/jquery/3.4.0/jquery.min.js"
+            type="application/javascript"></script>
+
+    <script type="text/javascript">
+		function gid(id) { return document.getElementById ? document.getElementById(id) : null; }
+		function timeDesc() {
+            if (all <= 0) {
+                window.clearInterval(int);
+                self.location.href = "https://www.bullvet.com/";
+
+			}
+			var obj = gid("tS");
+			if (obj) obj.innerHTML = all + " 秒后";
+			all--;
+		}
+		var all = 9;
+		if (all > 0) int=window.setInterval("timeDesc();", 1000);
+    </script>
+
+
+    <style>
+        *,
+        :after,
+        :before {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body.reader-black-font,
+        body.reader-black-font .history-mode .view-area,
+        body.reader-black-font .history-mode .view-area pre,
+        body.reader-black-font .main .kalamu-area,
+        body.reader-black-font .main .markdown .text,
+        body.reader-black-font input,
+        body.reader-black-font select,
+        body.reader-black-font textarea {
+            font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif
+        }
+
+        body {
+            background: #f6f7f8;
+        }
+
+        .go {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            margin: 0;
+            padding: 0;
+        }
+
+        .ext-link__wrapper {
+            max-width: 720px;
+            min-width: 300px;
+            padding: 2rem 1rem;
+            border-radius: 6px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 1px 3px rgba(27, 95, 160, .1);
+            overflow: hidden
+        }
+
+
+        .title {
+            font-size: 22px;
+            color: #2f2f2f
+        }
+
+        .sub-title {
+            font-size: 16px;
+            color: #888;
+            margin-top: 8px
+        }
+
+        .link-bd {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            max-width: 660px;
+            text-align: left;
+            margin: 12px auto 0;
+            padding: 10px;
+            border-radius: 4px;
+            background: #ebf6ff;
+            border: 1px solid #dceaf5;
+            zoom: 1
+        }
+
+            .link-bd:after,
+            .link-bd:before {
+                content: " ";
+                display: table
+            }
+
+            .link-bd .link-bd__icon {
+                -webkit-flex-shrink: 0;
+                -ms-flex-negative: 0;
+                flex-shrink: 0;
+                display: flex;
+                align-items: left;
+                width: 45px;
+                justify-content: left;
+                height: 45px;
+                line-height: 45px;
+                font-size: 20px;
+                background: #bcc6d8;
+                text-align: left;
+                border-radius: 2px;
+                color: #FFFFFF;
+            }
+
+        .link-btn {
+            text-align: center;
+            font-size: 0;
+            margin-top: 24px
+        }
+
+        .link-bd .link-bd__text {
+            font-size: 14px;
+            color: #006cbe;
+            margin-left: 10px;
+            overflow: hidden;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            white-space: nowrap
+        }
+
+        .link-btn__text {
+            display: inline-block;
+            width: 144px;
+            height: 44px;
+            line-height: 43px;
+            border-radius: 22px;
+            font-size: 14px;
+            color: #006cbe;
+            border: 1px solid #006cbe;
+            cursor: pointer;
+            text-decoration: none
+        }
+
+            .link-btn__text:hover {
+                color: #fff;
+                background: #006cbe
+            }
+
+        @media screen and (min-width:960px) {
+            .ext-link__wrapper {
+                padding: 3rem 3rem;
+                min-width: 700px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="go">
+        <div class="ext-link__wrapper">
+            <img src="/sysimg/logo.png" width="400" style="margin-bottom: 30px;" alt="Bullvet">
+            <div class="title">您访问的页面不存在，<span id="tS">10 秒后</span>自动返回首页</div>
+            <div class="sub-title"></div>
+            <div class="link-bd">
+              <p>
+                KESION 科汛软件是一家致力于通过技术创新，提供云开店SaaS社交电商服务平台、在线教育SaaS服务平台、教育企业数字化SaaS云平台、企微营销助手、私有化独立部署品牌网校和在线教育咨询等服务的高新技术企业。
+<br />
+<br />
+KESION 科汛软件不断通过技术创新，提供产品和服务，助力企业向数字化转型，通过科技驱动商业革新，让商业变得更智慧！
+              </p>  
+            </div>
+            <div class="link-btn">
+                <a href="/" class="link-btn__text">返回首页</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
